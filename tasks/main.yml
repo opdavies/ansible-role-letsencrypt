@@ -1,0 +1,6 @@
+---
+- name: Clone the letsencrypt repository.
+  git:
+    repo: "{{ letsencrypt_repo_url }}"
+    dest: "{{ letsencrypt_dir }}"
+  sudo: yes

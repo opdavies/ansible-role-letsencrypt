@@ -14,6 +14,12 @@ Available variables are listed below, along with default values (see defaults/ma
 
 The directory to install Let’s Encrypt into.
 
+## Example Playbook
+
+    - hosts: all
+      roles:
+        - opdavies.letsencrypt
+
 ## License
 
 MIT

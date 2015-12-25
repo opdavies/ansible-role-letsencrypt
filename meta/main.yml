@@ -1,2 +1,18 @@
 ---
+galaxy_info:
+  author: Oliver Davies
+  description: Installs the letsencrypt client.
+  license: MIT
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - web
 dependencies: []

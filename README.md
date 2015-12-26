@@ -6,6 +6,8 @@ Installs the [Let’s Encrypt](https://letsencrypt.org/) client onto any Linux s
 
 Requires [Git](http://git-scm.com/) to be installed, but there’s no dependency on any particular role.
 
+Red Hat based distributions require the [EPEL repository](https://fedoraproject.org/wiki/EPEL) to be configured, so that `python-virtualenv` can be installed.
+
 ## Role Variables
 
 Available variables are listed below, along with default values (see defaults/main.yml):
